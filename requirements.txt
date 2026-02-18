@@ -1,0 +1,23 @@
+langchain 
+langchain-core 
+langchain-community
+langchain-ollama
+pypdf
+pymupdf
+tqdm
+unstructured[pdf,docx]   # enables PDF + Word document parsing
+
+sentence_transformers
+faiss-cpu
+chromadb
+
+
+
+
+
+# langchain: umbrella meta-package, convenient for quick starts but heavier
+# langchain-core: lightweight core abstractions (chains, runnables, prompts, schema)
+# langchain-community: integrations maintained by community (vector stores, LLM providers, loaders)
+# langchain-ollama: integration for running local Ollama models (LLaMA, Mistral, etc.)
+# pypdf: simple, pure-Python PDF text extraction (good for lightweight ingestion)
+# pymupdf: powerful PDF engine with support for text, images, annotations, and layout (better for complex docs)
